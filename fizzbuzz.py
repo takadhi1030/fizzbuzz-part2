@@ -7,9 +7,8 @@ def fizzbuzz_convert(number):
 
     if number % 3 == 0:
         return "Fizz"
+    return str(number)
 
-        return str(number)
 
-
-result = fizzbuzz_convert(1)
-print(result)
+for number in range(1, 101):
+    print(fizzbuzz_convert(number))
