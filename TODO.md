@@ -17,7 +17,8 @@ TODO
 numberを1から100まで1つずつcountupしていく
 各number -> FizzBuzz変換
 
- -[ ] FizzBuzz変換を関数にする(使い回すため)
+ -[x] FizzBuzz変換を関数にする(使い回すため)
   -ctrl+shift+A alt+enterは必須
   -こうなったらいいなの感覚は大事
-  
+  -[x] 早期リターン
+  -[x] ガード節 
